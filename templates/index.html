@@ -18,9 +18,8 @@
                 <span></span>
             </button>
             <div class="title">
-                <span class="emoji">✈️</span>
-                SkyNavi Seyahat Asistanı
-                <span class="emoji">🌍</span>
+                <img src="{{ url_for('static', filename='images/thy-logo.png') }}" alt="THY Logo" class="thy-logo">
+                <span>SkyNavi Asistan</span>
             </div>
         </div>
 
@@ -53,9 +52,9 @@
         <!-- Main Chat Area -->
         <div class="chat-messages" id="chat-messages">
             {% if not conversation_history %}
-                <div class="message bot welcome-message">
+                <div class="message bot">
                     <div class="message-content markdown-body">
-                        {{ renderMarkdown("# ✈️ SkyNavi'ye Hoş Geldiniz!\n\n👋 Merhaba! Ben SkyNavi'nin dijital seyahat danışmanıyım. THY ve partner havayollarının uçuş verilerine, otel rezervasyonlarına ve transfer servislerine erişebiliyorum.\n\nÖncelikle, seyahatinizin amacı nedir? (İş/Tatil/Ziyaret)") | safe }}
+                        {{ renderMarkdown("Merhaba\nSize nasıl yardımcı olabilirim?") | safe }}
                     </div>
                 </div>
             {% endif %}
