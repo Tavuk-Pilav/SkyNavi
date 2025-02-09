@@ -6,6 +6,7 @@ __pycache__/
 chroma_*
 chroma
 .DS_Store
+conversations.db
 
 #experimantal
 agent_experimental.ipynb
