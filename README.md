@@ -1,17 +1,17 @@
-## SkyNavi ✈️
+# SkyNavi ✈️
 
 🌟 **Live demo:** [https://skynavi.onrender.com/](https://skynavi.onrender.com/)
 
 SkyNavi is an GenAI-powered travel assistant developed for Turkish Airlines customers, integrated with the Idea4Travel application.
 
-### ✨ Features
+## ✨ Features
 
 - 🤖 AI-powered travel consulting
 - 🗺️ Step-by-step travel planning
 - 💡 Smart suggestions for THY flights and services
 - 🛫 Integration with THY flight data and partner services
 
-### 🚀 Installation
+## 🚀 Installation
 
 1. Clone the repository
 ```bash
@@ -42,9 +42,13 @@ ANTHROPIC_API_KEY=your-api-key
 python app.py
 ```
 
-### 🎯 Usage
+## 🎯 Usage
 
 Visit `http://localhost:5000` in your browser to start planning your journey with Turkish Airlines.
 
-### 🎥 Demo
+
+## 🎥 Demo
+
+https://github.com/user-attachments/assets/03558b2b-8954-45ae-b7dc-94e0d83545fc
+
 
